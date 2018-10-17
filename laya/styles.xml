@@ -1,0 +1,16 @@
+<res>
+   <item name="douniu/button_bg.png" type="Image" compress="0" pack="0" quality="80" props="label=label@@!@@x=425@@!@@y=571" picType="0" scale="0"/>
+   <item name="douniu/button_bg_1.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="list/vertical_img.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="fileApplication/btn.png" type="Button" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddz" type="" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="userinfo" type="" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="hall_ddz/quxing.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/hongbao.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/hongbao_bg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/hongbao_down.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/line_bg.png" type="null" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/line.png" type="null" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddzsj_Result/win.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="ddz/share_hongbtn.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+</res>

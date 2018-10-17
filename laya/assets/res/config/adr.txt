@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ADDR_CONF debug="1">
+  <OTHER mode="2" debug="1">
+	  <ADDRESS id="1" ip="http://yzmj.yunfanshidai.com" login="/yzmj/login_svr/login.php?" update="/yzmj/lastversion.php?name=" download="/yzmj/download.php?name="/>
+	  <ADDRESS id="2" ip="http://192.168.200.14" login="/wzmj/login_svr/login.php?" update="/wzmj/lastversion.php?name=" download="/wzmj/download.php?name="/>
+	  <ADDRESS id="3" ip="http://192.168.200.11" login="/wzmj/login_svr/login.php?" update="/wzmj/lastversion.php?name=" download="/wzmj/download.php?name="/>
+	  <ADDRESS id="4" ip="http://192.168.200.29" login="/wzmj/login_svr/login.php?" update="/wzmj/lastversion.php?name=" download="/wzmj/download.php?name="/>
+  </OTHER>
+  <IOS mode="1">
+	  <ADDRESS id="1" ip="http://yzmj.yunfanshidai.com" login="/yzmj/login_svr/login.php?" update="/yzmj/lastversion.php?name=" download="/yzmj/download.php?name=" kind="/yzmj/test.php?" />
+	  <ADDRESS id="2" ip="http://192.168.200.121" login="/mj/login_svr/login.php?" update="/mj/lastversion.php?name=" download="/mj/download.php?name="/>
+  </IOS>
+</ADDR_CONF>

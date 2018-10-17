@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOMS_CONFIG>
+  <ROOMTYPE ID="1" Name="擂台" game="11" size="30">
+    <GAMETYPE ID="1" desc="扬中麻将" type="yzmj" item="7">
+      <ITEM ID="11" desc="局数" value="totalNum" ios_ignore="1" default="112" >
+        <OPTION ID="111"   Name="4局(钻石X1)  " num="4"/>
+        <OPTION ID="112"   Name="8局(钻石X1)  " num="8"/>
+      </ITEM>
+	  <ITEM ID="12" desc="" value="totalNum" ios_ignore="1">
+		<OPTION ID="121"   Name="16局(钻石X2)  " num="16"/>
+      </ITEM>
+	  <ITEM ID="13" desc="底分" value="hsqe" default="131">
+        <OPTION ID="131"   Name="混五清十  " num="1"/>
+        <OPTION ID="132"   Name="混十清二十  " num="2"/>
+      </ITEM>
+	  <ITEM ID="14" desc="胡法" value="yztype" default="141">
+      <OPTION ID="141"   Name="一摸二冲  " num="1"/>
+		  <OPTION ID="142"   Name="硬三花    " num="2"/>
+    </ITEM>
+     <ITEM ID="15" desc="" value="yztype" >
+		<OPTION ID="151"   Name="硬二花    " num="3"/>
+		<OPTION ID="152"   Name="硬五花    " num="4"/>
+      </ITEM>
+	   <ITEM ID="16" desc="人数" value="player_num">
+        <OPTION ID="161"   Name="4人   " num="4"/>
+		<OPTION ID="162"   Name="3人   " num="3"/>
+		<OPTION ID="163"   Name="2人   " num="2"/>
+      </ITEM>
+	  <ITEM ID="17" desc="功能"  value="forbid_same_ip" multi_check="1">
+        <OPTION ID="172"   Name="同IP不能进入房间"  num="1" /> 		
+      </ITEM>
+	  	  
+	  <ITEM ID="18" desc="位置"  value="gps_room" multi_check="1">
+        <OPTION ID="182"   Name="打开位置"  num="1"/> 		
+      </ITEM>
+	  <ITEM ID="19" desc="私密房"  value="club_room" multi_check="1">
+        <OPTION ID="191"   Name="俱乐部房间"  num="1" /> 		
+      </ITEM>
+	  </GAMETYPE>
+	
+	<GAMETYPE ID="2" desc="斗牛" type="cardniuniu" item="8">
+	   <ITEM ID="21" desc="局数" value="totalNum">
+        <OPTION ID="211"   Name="10局(房卡x1) " num="10"/>
+        <OPTION ID="212"   Name="20局(房卡x2) " num="20"/>   
+      </ITEM>
+	  <ITEM ID="22" desc="人数" value="player_num">
+        <OPTION ID="224"   Name="2人  " num="2"/>        
+		<OPTION ID="223"   Name="3人  " num="3"/>        
+		<OPTION ID="222"   Name="4人  " num="4"/>        
+		<OPTION ID="221"   Name="5人  " num="5"/>         
+       </ITEM>
+	   <ITEM ID="23" desc="房费" value="all_cost_card" default="232" >
+        <OPTION ID="231"   Name="房主扣卡  " num="0"/>
+        <OPTION ID="232"   Name="AA扣卡 " num="1"/>
+      </ITEM>
+	  <ITEM ID="24" desc="牌型" multi_check="1" value="pokertype">
+		<OPTION ID="241"   Name="炸弹牛(5倍) " value="zhadanniu"/>
+		<OPTION ID="242"   Name="五花牛(6倍)  " value="wuhua"/> 
+		<OPTION ID="243"   Name="五小牛(8倍)" value="wuxiao"/>
+      </ITEM>
+	  <ITEM ID="27" desc="抢庄" value="play_type"  >
+        <OPTION ID="271"   Name="看牌抢庄   " num="3"/>
+        <OPTION ID="272"   Name="不看牌抢庄   " num="4"/>
+      </ITEM>
+	  <ITEM ID="28" desc="" value="play_type" >
+		<OPTION ID="281"   Name="轮流坐庄  " num="5"/>
+		<OPTION ID="282"   Name="谁大谁坐庄  " num="6"/>
+      </ITEM>
+	  <ITEM ID="29" desc="位置"  value="gps_room" multi_check="1" >
+        <OPTION ID="292"   Name="打开位置"  num="1" default="1"/> 		
+      </ITEM>
+	  <ITEM ID="30" desc="规则" Name="拼十*4 够九*3 够八*2" value="desc" />
+    </GAMETYPE>
+	<GAMETYPE ID="3" desc="拼十" type="qwpk"  item="7" >
+	   <ITEM ID="31" desc="局数" value="totalNum">
+        <OPTION ID="311"   Name="10局(X1)  " num="10"/>
+        <OPTION ID="312"   Name="20局(X2)  " num="20"/>
+		<OPTION ID="313"   Name="30局(X3)" num="30"/>
+      </ITEM>
+	  <ITEM ID="32" desc="人数" value="playerNum">
+        <OPTION ID="324"   Name="2人 " num="2"/>        
+		<OPTION ID="323"   Name="3人 " num="3"/>        
+		<OPTION ID="322"   Name="4人 " num="4"/>        
+		<OPTION ID="321"   Name="5人 " num="5"/>         
+       </ITEM>
+	  <ITEM ID="33" desc="房费" value="all_cost_card" default="332">
+        <OPTION ID="331"   Name="房主支付  " />
+		<OPTION ID="332"   Name="AA制" value="all_cost_card"/>
+      </ITEM>
+	  <ITEM ID="34" desc="牌型" multi_check="1" value="pokertype" >
+		<OPTION ID="341"   Name="炸弹牛(5倍) " value="zhadanniu"/>
+		<OPTION ID="342"   Name="五花牛(6倍)  " value="wuhua"/>
+      </ITEM>
+	  <ITEM ID="35" desc="" multi_check="1" value="pokertype" >
+		<OPTION ID="352"   Name="五小牛(8倍)" value="wuxiao"/>
+      </ITEM>
+	  <ITEM ID="36" desc="抢庄" value="modle" default="362" >
+		<OPTION ID="361"   Name="轮流坐庄  " num="2"/>
+        <OPTION ID="362"   Name="看牌抢庄  " num="1"/>
+      </ITEM>
+	  <ITEM ID="37" desc="" value="modle">
+		<OPTION ID="371"   Name="不看牌抢庄  " num="4"/>
+		<OPTION ID="372"   Name="谁大谁坐庄" num="3"/>
+      </ITEM>
+
+    </GAMETYPE>	 
+	
+	<GAMETYPE ID="4" desc="疯狂拼十" type="fknpk" item="7">
+	   <ITEM ID="41" desc="局数" value="totalNum">
+        <OPTION ID="411"   Name="10局(X1)   " num="10"/>
+        <OPTION ID="412"   Name="20局(X2)   " num="20"/>
+		<OPTION ID="413"   Name="30局(X3)" num="30"/>
+      </ITEM>
+	  <ITEM ID="42" desc="人数" value="playerNum">
+        <OPTION ID="424"   Name="2人 " num="2"/>        
+		<OPTION ID="423"   Name="3人 " num="3"/>        
+		<OPTION ID="422"   Name="4人 " num="4"/>        
+		<OPTION ID="421"   Name="5人 " num="5"/>         
+       </ITEM>
+	  <ITEM ID="43" desc="房费" value="all_cost_card" default="432">
+        <OPTION ID="431"   Name="房主支付   " />
+		<OPTION ID="432"   Name="AA制        " value="all_cost_card"/>
+      </ITEM>
+	  <ITEM ID="44" desc="牌型" multi_check="1" value="pokertype" >
+        <OPTION ID="441"   Name="炸弹(11倍)  " value="zhadanniu"/>
+		<OPTION ID="442"   Name="五花(13倍)  " value="wuhua"/> 
+      </ITEM>
+	  <ITEM ID="45" desc="" multi_check="1" value="pokertype" >
+		<OPTION ID="452"   Name="五小(15倍) " value="wuxiao"/>  		
+      </ITEM>
+	  <ITEM ID="46" desc="抢庄" value="modle" default="462"  >
+		<OPTION ID="461"   Name="轮流坐庄  " num="2"/>
+        <OPTION ID="462"   Name="看牌抢庄  " num="1"/>
+      </ITEM>
+	  <ITEM ID="47" desc="" value="modle">
+		<OPTION ID="471"   Name="不看牌抢庄  " num="4"/>
+		<OPTION ID="472"   Name="谁大谁坐庄  " num="3"/>
+      </ITEM>
+
+    </GAMETYPE>
+
+    <GAMETYPE ID="5" desc="通比拼十" type="tbnpk"  item="7" >
+	   <ITEM ID="51" desc="局数" value="totalNum">
+        <OPTION ID="511"   Name="10局(X1)  " num="10"/>
+        <OPTION ID="512"   Name="20局(X2)  " num="20"/>
+		<OPTION ID="513"   Name="30局(X3)" num="30"/>
+      </ITEM>
+	  <ITEM ID="52" desc="人数" value="playerNum">
+        <OPTION ID="524"   Name="2人 " num="2"/>        
+		<OPTION ID="523"   Name="3人 " num="3"/>        
+		<OPTION ID="522"   Name="4人 " num="4"/>        
+		<OPTION ID="521"   Name="5人 " num="5"/>         
+       </ITEM>
+	  <ITEM ID="53" desc="房费" value="all_cost_card" default="532">
+        <OPTION ID="531"   Name="房主支付  " />
+		<OPTION ID="532"   Name="AA制" value="all_cost_card"/>
+      </ITEM>
+	  <ITEM ID="54" desc="牌型" multi_check="1" value="pokertype" >
+		<OPTION ID="541"   Name="炸弹牛(5倍) " value="zhadanniu"/>
+		<OPTION ID="542"   Name="五花牛(6倍)  " value="wuhua"/>
+      </ITEM>
+	  <ITEM ID="55" desc="" multi_check="1" value="pokertype" >
+		<OPTION ID="552"   Name="五小牛(8倍)" value="wuxiao"/>
+      </ITEM>
+	  <ITEM ID="56" desc="抢庄" value="modle" default="562">
+		<OPTION ID="561"   Name="轮流坐庄  " num="2"/>
+        <OPTION ID="562"   Name="看牌抢庄  " num="1"/>
+      </ITEM>
+	  <ITEM ID="57" desc="" value="modle">
+		<OPTION ID="571"   Name="不看牌抢庄  " num="4"/>
+		<OPTION ID="572"   Name="谁大谁坐庄" num="3"/>
+      </ITEM>
+
+    </GAMETYPE>	
+	
+	<GAMETYPE ID="6" desc="比鸡扑克" type="bjpk"  item="5"  >
+      <ITEM ID="61" desc="局数" value="totalNum" ios_ignore="1" >
+        <OPTION ID="611"   Name="10局(X1)  " num="10"/>
+		<OPTION ID="612"   Name="20局(X2)  " num="20"/>
+		<OPTION ID="613"   Name="30局(X3)" num="30"/>
+      </ITEM>    
+	   <ITEM ID="62" desc="人数" value="playerNum">
+		<OPTION ID="624"   Name="2人 " num="2"/>        
+		<OPTION ID="623"   Name="3人 " num="3"/>        
+		<OPTION ID="622"   Name="4人 " num="4"/>
+		<OPTION ID="621"   Name="5人 " num="5"/>
+       </ITEM>
+	  <ITEM ID="63" desc="房卡" value="all_cost_card" ios_ignore="1" default="632">
+        <OPTION ID="631"   Name="房主支付  " />
+		<OPTION ID="632"   Name="AA制  " num="1" value="all_cost_card"/>             
+       </ITEM>
+	  <ITEM ID="64" desc="位置"  value="gps_room" multi_check="1" >
+        <OPTION ID="641"   Name="打开位置"  num="1" /> 		
+      </ITEM>
+	  <ITEM ID="65" desc="模式" multi_check="1" value="pokertype">
+        <OPTION ID="651"   Name="三清  " value="sanqing"/>        
+		<OPTION ID="652"   Name="顺清  " value="shunqing"/>                 
+      </ITEM>
+	     <ITEM ID="66" desc="高级"  value="forbid_same_ip" multi_check="1" >
+        <OPTION ID="662"   Name="同IP不能进入房间"  num="1" />	
+      </ITEM>
+
+    </GAMETYPE>
+	<GAMETYPE ID="7" desc="斗地主" type="cardnddz" item="6"  >
+      <ITEM ID="71" desc="局数" value="totalNum" ios_ignore="1">
+        <OPTION ID="711"   Name="10局(X1)  " num="10"/>
+        <OPTION ID="712"   Name="20局(X2)  " num="20"/>
+		<OPTION ID="713"   Name="30局(X3)" num="30"/>		
+      </ITEM>
+      <ITEM ID="72" desc="炸弹" value="zhadan">
+        <OPTION ID="721"   Name="2炸   " num="2"/>
+        <OPTION ID="722"   Name="3炸   " num="3"/>
+        <OPTION ID="723"   Name="4炸   " num="4"/>
+        <OPTION ID="724"   Name="5炸   " num="5"/>
+      </ITEM>
+	   <ITEM ID="73" desc="房费" value="all_cost_card" default="732" >
+        <OPTION ID="731"   Name="房主支付  " />
+		<OPTION ID="732"   Name="AA制" value="all_cost_card"/>
+      </ITEM>
+	   <ITEM ID="74" desc="高级"  value="forbid_same_ip" multi_check="1" >
+        <OPTION ID="742"   Name="同IP不能进入房间"  num="1" /> 		
+      </ITEM>
+	   <ITEM ID="75" desc="位置"  value="gps_room" multi_check="1" >
+        <OPTION ID="752"   Name="打开位置"  num="1" /> 		
+      </ITEM>
+     <ITEM ID="76" desc="私密房"  value="club_room" multi_check="1" >
+        <OPTION ID="762"   Name="俱乐部房间"  num="1" />
+      </ITEM>
+	  <ITEM ID="77" desc="结算" value="jiesuan_num" >
+        <OPTION ID="771"   Name="牌型算分     "/>
+       </ITEM>
+    </GAMETYPE>	 
+
+    <GAMETYPE ID="8" desc="极速斗地主" type="cardddz" item="5">
+      <ITEM ID="81" desc="局数" value="totalNum" ios_ignore="1">
+        <OPTION ID="811"   Name="10局(x1)  " num="10"/>
+        <OPTION ID="812"   Name="20局(x2)  " num="20"/>  
+		<OPTION ID="813"   Name="30局(X3)" num="30"/>
+      </ITEM>
+      <ITEM ID="82" desc="炸弹" value="zhadan">
+        <OPTION ID="821"   Name="2炸  " num="2"/>
+        <OPTION ID="822"   Name="3炸  " num="3"/>
+        <OPTION ID="823"   Name="4炸  " num="4"/>
+        <OPTION ID="824"   Name="5炸  " num="5"/>
+      </ITEM>
+     <ITEM ID="83" desc="房卡" value="all_cost_card" default="832" >
+        <OPTION ID="831"   Name="房主支付  " />
+		<OPTION ID="832"   Name="AA制" value="all_cost_card"/>
+      </ITEM>  
+	   <ITEM ID="84" desc="位置"  value="gps_room" multi_check="1" >
+        <OPTION ID="842"   Name="打开位置"  num="1" /> 		
+      </ITEM>
+	  <ITEM ID="85" desc="高级"  value="forbid_same_ip" multi_check="1" >
+        <OPTION ID="852"   Name="同IP不能进入房间"  num="1" /> 		
+      </ITEM>
+	    <ITEM ID="86" desc="私密房"  value="club_room" multi_check="1" >
+        <OPTION ID="862"   Name="俱乐部房间"  num="1" />
+      </ITEM>
+    </GAMETYPE>
+	
+	<GAMETYPE ID="9"  desc="焖鸡" type="card_zjh" item="8">
+      <ITEM ID="91" desc="局数" value="totalNum">
+        <OPTION ID="911"   Name="10局(x1)   " num="10"/>
+        <OPTION ID="912"   Name="20局(x2)   " num="20"/>  
+		<OPTION ID="913"   Name="30局(X3)" num="30"/>
+      </ITEM>
+	  <ITEM ID="92" desc="人数" value="playerNum">
+        <OPTION ID="924"   Name="2人  " num="2"/>        
+		<OPTION ID="923"   Name="3人  " num="3"/>        
+		<OPTION ID="922"   Name="4人  " num="4"/>        
+		<OPTION ID="921"   Name="5人  " num="5"/>         
+       </ITEM>
+	   <ITEM ID="93" desc="房卡" value="all_cost_card" default="932" >
+        <OPTION ID="931"   Name="房主支付  " />
+		<OPTION ID="932"   Name="AA制" value="all_cost_card"/>
+      </ITEM>  
+      <ITEM ID="94" desc="轮数"  value="max_round" default="942" >
+        <OPTION ID="941"   Name="10轮  " num="10" />
+		<OPTION ID="942"   Name="15轮  " num="15" />
+		<OPTION ID="943"   Name="20轮  " num="20" />
+      </ITEM>
+	  <ITEM ID="95" desc="先手" value="rules">
+        <OPTION ID="953"   Name="谁大谁先手  " num="1"/>
+		<OPTION ID="952"   Name="轮流先手  " num="2"/>
+		<OPTION ID="951"   Name="固定先手  " num="3"/>
+      </ITEM>
+	  <ITEM ID="96" desc="焖数" value="bimen">
+		<OPTION ID="961"   Name="不闷  " />
+        <OPTION ID="962"   Name="一圈  " num="1"/>
+		<OPTION ID="963"   Name="两圈  " num="2"/>
+		<OPTION ID="964"   Name="三圈  " num="3"/>
+      </ITEM>	  
+	   <ITEM ID="97" desc="筹码" value="maxscore" >
+        <OPTION ID="971"   Name="20封顶  " num="20"/>
+		<OPTION ID="972"   Name="40封顶  " num="40"/>
+      </ITEM>
+	  <ITEM ID="98" desc="最大焖" value="max_men" >
+        <OPTION ID="981"   Name="不限  " />
+		<OPTION ID="982"   Name="焖5分封顶  " num="5"/>
+		<OPTION ID="983"   Name="焖10分封顶  " num="10"/>
+      </ITEM>
+	  <ITEM ID="99" desc="双开"  value="shuangkai"  multi_check="1" >
+        <OPTION ID="992"   Name="比牌者筹码翻倍 "  num="1"  />
+      </ITEM>
+	  <ITEM ID="100" desc="弃牌"  value="auto_qipai"  multi_check="1" >
+        <OPTION ID="1002"   Name="60秒不下注后自动弃牌 "  num="1"  />
+      </ITEM>
+	  <ITEM ID="101" desc="底分" value="gameTimes">
+        <OPTION ID="1011"   Name="老板场   " num="1"/>
+		<OPTION ID="1012"   Name="土豪场   " num="2"/>
+		<OPTION ID="1013"   Name="血战场   " num="3"/>
+      </ITEM>
+	  <ITEM ID="102" desc="喜钱"  value="xiqian"  multi_check="1" >
+        <OPTION ID="1022"   Name="同花顺豹子有喜钱 "  num="1"  />
+      </ITEM>
+	  <ITEM ID="103" desc="" value="xiqian_num" default="1033" >
+        <OPTION ID="1031"   Name="10/10   " num="1"/>
+		<OPTION ID="1032"   Name="10/20   " num="2"/>
+		<OPTION ID="1033"   Name="5/5   " num="3"/>
+      </ITEM>
+	  <ITEM ID="104" desc="玩法"  value="shunzi_123" multi_check="1" >
+        <OPTION ID="1042"   Name="顺子A23小JQK "  num="1" />
+      </ITEM>
+	    <ITEM ID="105" desc="位置"  value="gps_room" multi_check="1" >
+        <OPTION ID="1052"   Name="打开位置"  num="1" />
+      </ITEM>
+	  <ITEM ID="106" desc="高级"  value="forbid_same_ip" multi_check="1" >
+        <OPTION ID="1062"   Name="同IP不能进入房间"  num="1" /> 
+      </ITEM>
+	    <ITEM ID="107" desc="私密房"  value="club_room" multi_check="1" >
+        <OPTION ID="1072"   Name="俱乐部房间"  num="1" />
+      </ITEM>
+	  <ITEM ID="108" desc="结算" value="jiesuan_num" >
+        <OPTION ID="1081"   Name="牌型算分     "/>
+       </ITEM>
+    </GAMETYPE>
+  
+
+	<GAMETYPE ID="10" desc="划拳" type="huaquan" item="1"  >
+      <ITEM ID="101" desc="局数" value="totalNum" ios_ignore="1">
+        <OPTION ID="1011"   Name="1局(X1)  " num="1"/>   
+      </ITEM>
+	  <ITEM ID="102" desc="结算" value="jiesuan_num" >
+        <OPTION ID="1021"   Name="牌型算分     "/>
+		<OPTION ID="1022"   Name="单局定额     " num="1000" />
+	  </ITEM>
+	</GAMETYPE>
+
+	
+	<GAMETYPE ID="11" desc="五子棋" type="wuziqi" item="6"  >
+      <ITEM ID="111" desc="局数" value="totalNum" ios_ignore="1">
+        <OPTION ID="1111"   Name="1局(X1)  " num="1"/> 
+	 </ITEM>	
+	 <ITEM ID="112" desc="结算" value="jiesuan_num" >
+        <OPTION ID="1121"   Name="牌型算分     "/>
+		<OPTION ID="1122"   Name="单局定额     " num="1000" />
+       </ITEM>
+    </GAMETYPE>
+
+    <!--<GAMETYPE ID="12" desc="宝清麻将" type="bqmj" item="6">
+      <ITEM ID="121" desc="局数" value="totalNum" ios_ignore="1" default="1211" >
+        <OPTION ID="1211"   Name="4局(钻石X1)  " num="4"/>
+        <OPTION ID="1212"   Name="8局(钻石X1)  " num="8"/>
+      </ITEM>
+      <ITEM ID="122" desc="" value="totalNum" ios_ignore="1">
+          <OPTION ID="1222"   Name="16局(钻石X2)  " num="16"/>
+      </ITEM>
+      <ITEM ID="123" desc="人数" value="player_num">
+          <OPTION ID="1231"   Name="4人   " num="4"/>
+          <OPTION ID="1232"   Name="3人   " num="3"/>
+          <OPTION ID="1233"   Name="2人   " num="2"/>
+      </ITEM>
+       <ITEM ID="124" desc="封顶" value="fengding_opt">
+          <OPTION ID="1241"   Name="100人封顶   " num="100"/>
+      </ITEM>
+      <ITEM ID="125" desc="功能"  value="forbid_same_ip" multi_check="1">
+          <OPTION ID="1251"   Name="同IP不能进入房间"  num="1" /> 		
+      </ITEM>
+      <ITEM ID="126" desc="位置"  value="gps_room" multi_check="1">
+          <OPTION ID="1262"   Name="打开位置"  num="1"/> 		
+      </ITEM>
+      <ITEM ID="127" desc="私密房"  value="club_room" multi_check="1">
+          <OPTION ID="1271"   Name="俱乐部房间"  num="1" /> 		
+      </ITEM>
+       <ITEM ID="128" desc="胡法" value="qing_yi_se_opt" multi_check="1">
+          <OPTION ID="1282"   Name="清一色" num="1"/>
+      </ITEM>
+
+	  </GAMETYPE>-->
+  </ROOMTYPE>
+</ROOMS_CONFIG>
